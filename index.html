@@ -126,7 +126,10 @@
                     <!-- actions -->
                     <div class="ul-header-actions">
                         <button class="ul-header-search-opener"><i class="flaticon-search"></i></button>
-                        <button><i class="flaticon-grocery-store"></i></button>
+                        <button style="position:relative;">
+    <a href="cart.html"><i class="flaticon-grocery-store"></i></a>
+    <span class="cart-count" style="position:absolute; top:-6px; right:-8px; background:#e8002d; color:#fff; font-size:11px; min-width:18px; height:18px; line-height:18px; border-radius:50%; text-align:center; pointer-events:none;">0</span>
+</button>
                         <a href="index.html" class="ul-btn d-sm-inline-flex d-none">¡Cotiza Ahora! <i class="flaticon-right"></i></a>
                         <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-menu"></i></button>
                     </div>
@@ -328,12 +331,19 @@
                                             <i class="flaticon-star"></i>
                                         </div>
                                     </div>
-                                    <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+                                    <button class="ul-food-add-to-cart-btn add-to-cart"
+        data-id="2"
+        data-name="Mole con Pollo"
+        data-price="1"
+        data-img="assets/img/food-2.png">
+    <i class="flaticon-cart"></i>
+</button>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- single item -->
+                        
+                        
                         <div class="swiper-slide">
                             <div class="ul-food">
                                 <div class="ul-food-img">
@@ -562,6 +572,7 @@
 
     <!-- custom JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
     <script src="assets/js/tab.js"></script>
     <script src="assets/js/countdown.js"></script>
 </body>

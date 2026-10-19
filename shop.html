@@ -126,7 +126,10 @@
                     <!-- actions -->
                     <div class="ul-header-actions">
                         <button class="ul-header-search-opener"><i class="flaticon-search"></i></button>
-                        <button><i class="flaticon-grocery-store"></i></button>
+                       <button style="position:relative;">
+    <a href="cart.html"><i class="flaticon-grocery-store"></i></a>
+    <span class="cart-count" style="position:absolute; top:-6px; right:-8px; background:#e8002d; color:#fff; font-size:11px; min-width:18px; height:18px; line-height:18px; border-radius:50%; text-align:center; pointer-events:none;">0</span>
+</button>
                         <a href="index.html" class="ul-btn d-sm-inline-flex d-none">¡Cotiza Ahora! <i class="flaticon-right"></i></a>
                         <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-menu"></i></button>
                     </div>
@@ -162,10 +165,10 @@
                                 <img src="assets/img/food-1.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title"></a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experiencehere a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Cochinita Pibil</a>
+                                <p class="ul-food-sub-title">Es un exquisito plato de cerdo marinado con achiote y cocido lento, jugoso y con el sabor de siempre.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -174,7 +177,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+                                <button class="ul-food-add-to-cart-btn add-to-cart" data-id="1" data-name="Cochinita Pibil" data-price="1" data-img="assets/img/food-1.png"><i class="flaticon-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -186,10 +189,10 @@
                                 <img src="assets/img/food-2.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Lunch Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Mole con Pollo</a>
+                                <p class="ul-food-sub-title">El palto de mole casero con pollo tierno, listo para compartir en familia. Va con arroz rojo. </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -198,9 +201,8 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
-                        </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="2" data-name="Mole con Pollo" data-price="1" data-img="assets/img/food-2.png"><i class="flaticon-cart"></i></button>                        </div>
+                    </div>
                     </div>
 
                     <!-- single menu item -->
@@ -210,10 +212,10 @@
                                 <img src="assets/img/food-3.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Dinner Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Tinga de Pollo</a>
+                                <p class="ul-food-sub-title">El clasico plato de pollo deshebrado en salsa de chipotle y jitomate, para tostadas o tacos.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -222,10 +224,10 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="3" data-name="Tinga de Pollo" data-price="1" data-img="assets/img/food-3.png"><i class="flaticon-cart"></i></button>                            </div>
                             </div>
                         </div>
-                    </div>
+                    
 
                     <!-- single menu item -->
                     <div class="col">
@@ -234,10 +236,10 @@
                                 <img src="assets/img/shop-details.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Desert Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Enchiladas Verdes</a>
+                                <p class="ul-food-sub-title">La orden de 5 tortillas rellenas de pollo o carne deshebrada, bañadas en salsa verde casera, con crema y queso. </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -246,7 +248,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+                               <button class="ul-food-add-to-cart-btn add-to-cart" data-id="4" data-name="Enchiladas Verdes" data-price="1" data-img="assets/img/shop-details.png"><i class="flaticon-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -258,10 +260,10 @@
                                 <img src="assets/img/food-1.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Egg and Cucumber</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Mini Quesadillas</a>
+                                <p class="ul-food-sub-title">Charola de quesadillas calientitas y rellenas de queso, ideales para tu reunión. Acompañadas con una fresca ensalada y salsa de la casa.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -270,7 +272,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+                               <button class="ul-food-add-to-cart-btn add-to-cart" data-id="5" data-name="Mini Quesadillas" data-price="1" data-img="assets/img/food-1.png"><i class="flaticon-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -282,10 +284,10 @@
                                 <img src="assets/img/food-2.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Lunch Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Sopes</a>
+                                <p class="ul-food-sub-title">Docena de Sopes con base de maíz con frijoles, carne, lechuga y queso freco. Antojito casero para compartir.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -294,7 +296,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
+                                <button class="ul-food-add-to-cart-btn add-to-cart" data-id="6" data-name="Sopes" data-price="1" data-img="assets/img/food-2.png"><i class="flaticon-cart"></i></button>
                             </div>
                         </div>
                     </div>
@@ -306,10 +308,10 @@
                                 <img src="assets/img/food-3.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Dinner Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Tamales</a>
+                                <p class="ul-food-sub-title">Charola de Tamales hechos a mano, suaves y bien rellenos. Perfectos para el desayuno o la cena.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -318,8 +320,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="7" data-name="Tamales" data-price="1" data-img="assets/img/food-3.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
 
@@ -330,8 +331,8 @@
                                 <img src="assets/img/shop-details.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Desert Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Flautas Doradas</a>
+                                <p class="ul-food-sub-title">Docena de Flautas crujientes, rellenas de pollo y acompañadas de crema, lechuga y salsa.  </p>
                                 <div class="ul-food-bottom">
                                     <span class="ul-food-price"><span class="number">$4,500</span></span>
                                     <div class="ul-food-rating">
@@ -342,8 +343,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="8" data-name="Flautas Doradas" data-price="4500" data-img="assets/img/shop-details.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
 
@@ -354,10 +354,10 @@
                                 <img src="assets/img/food-1.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Egg and Cucumber</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Pastel de Tres Leches</a>
+                                <p class="ul-food-sub-title">Rebanada de pastel suave, esponjoso y bañado en leche. El postre perfecto para cerrar tu comida.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -366,8 +366,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="9" data-name="Pastel de Tres Leches" data-price="1" data-img="assets/img/food-1.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
 
@@ -378,10 +377,10 @@
                                 <img src="assets/img/food-2.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Lunch Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Arroz con Leche</a>
+                                <p class="ul-food-sub-title">El vaso clásico del postre mexicano, suave y cremoso, hecho con arroz, leche y azúcar.  </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -390,8 +389,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="10" data-name="Arroz con Leche" data-price="1" data-img="assets/img/food-2.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
 
@@ -402,10 +400,10 @@
                                 <img src="assets/img/food-3.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Dinner Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Flan Napolitano</a>
+                                <p class="ul-food-sub-title">La rica rebanada del flan suave y cremoso, con caramelo dorado. Un clásico para cerrar la comida. </p>
                                 <div class="ul-food-bottom">
-                                    <span class="ul-food-price"><span class="number">$4,500</span></span>
+                                    <span class="ul-food-price"><span class="number">$1.00</span></span>
                                     <div class="ul-food-rating">
                                         <i class="flaticon-star"></i>
                                         <i class="flaticon-star"></i>
@@ -414,8 +412,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="11" data-name="Flan Napolitano" data-price="1" data-img="assets/img/food-3.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
 
@@ -426,8 +423,8 @@
                                 <img src="assets/img/shop-details.png" alt="food Image">
                             </div>
                             <div class="ul-food-txt">
-                                <a href="shop-details.html" class="ul-food-title">Desert Foods</a>
-                                <p class="ul-food-sub-title">It’s the perfect dining experience where a every dish is crafted with fresh high quality </p>
+                                <a href="shop-details.html" class="ul-food-title">Pay de Limon</a>
+                                <p class="ul-food-sub-title">Vaso con la clásica base de galleta, relleno cremoso y un toque ácido que refresca. </p>
                                 <div class="ul-food-bottom">
                                     <span class="ul-food-price"><span class="number">$4,500</span></span>
                                     <div class="ul-food-rating">
@@ -438,8 +435,7 @@
                                         <i class="flaticon-star"></i>
                                     </div>
                                 </div>
-                                <button class="ul-food-add-to-cart-btn"><i class="flaticon-cart"></i></button>
-                            </div>
+<button class="ul-food-add-to-cart-btn add-to-cart" data-id="12" data-name="Pay de Limon" data-price="4500" data-img="assets/img/shop-details.png"><i class="flaticon-cart"></i></button>                            </div>
                         </div>
                     </div>
                 </div>
@@ -463,14 +459,15 @@
         <!-- FOODS SECTION END -->
     </main>
 
+   
     <!-- FOOTER SECTION START -->
     <footer class="ul-footer">
         <div class="ul-footer-top">
             <div class="ul-container">
                 <div class="ul-footer-top-wrapper wow animate__fadeInUp">
                     <div class="ul-footer-about">
-                        <a href="index.html"><img src="assets/img/logo.svg" alt="logo"></a>
-                        <p class="ul-footer-about-txt">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        <p class="ul-footer-about-txt">Pasa por tu antojito favorito, acompáñalo con una salsa bien picosa y vive la experiencia del auténtico barrio mexicano. ¡El verdadero sazón te está esperando!</p>
                         <div class="ul-footer-socials">
                             <a href="#"><i class="flaticon-facebook"></i></a>
                             <a href="#"><i class="flaticon-twitter"></i></a>
@@ -480,17 +477,16 @@
                     </div>
 
                     <div class="ul-footer-widget">
-                        <h3 class="ul-footer-widget-title">Quick Links</h3>
+                        <h3 class="ul-footer-widget-title">Nuestros Links</h3>
 
                         <div class="ul-footer-widget-links">
-                            <a href="about.html">About Us</a>
-                            <a href="services.html">Our Services</a>
-                            <a href="blog.html">Our Blogs</a>
-                            <a href="faq.html">FAQ’S</a>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="index.html">Nosotros</a>
+                            <a href="index.html">Menú</a>
+                            <a href="index.html">Eventos</a>
+                            <a href="index.html">Contactanos</a>
                         </div>
                     </div>
-
+<!--
                     <div class="ul-footer-widget">
                         <h3 class="ul-footer-widget-title">Our Menu</h3>
 
@@ -525,7 +521,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- vector -->
             <div class="ul-footer-vectors">
@@ -534,13 +530,14 @@
                 <img src="assets/img/footer-vector-3.svg" alt="Footer Image" class="ul-footer-vector-3">
             </div>
         </div>
-
+<br>
+<br>
         <!-- footer bottom -->
         <div class="ul-footer-bottom">
             <div class="ul-container">
                 <div class="ul-footer-bottom-wrapper">
                     <p class="copyright-txt">&copy;
-                        <script>document.write(new Date().getFullYear())</script> Restics. All rights reserved
+                        <script>document.write(new Date().getFullYear())</script> Sabor en Casa. All rights reserved
                     </p>
                     <div class="ul-footer-bottom-nav"><a href="#">Terms & Conditions</a> <a href="#">Privacy Policy</a></div>
                 </div>
@@ -548,7 +545,6 @@
         </div>
     </footer>
     <!-- FOOTER SECTION END -->
-
 
     <!-- libraries JS -->
     <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
@@ -560,9 +556,13 @@
     <script src="assets/vendor/splittype/index.min.js"></script>
     <script src="assets/vendor/mixitup/mixitup.min.js"></script>
     <script src="assets/vendor/fslightbox/fslightbox.js"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.js"></script>
 
     <!-- custom JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/countdown.js"></script>
 </body>
 
 </html>
